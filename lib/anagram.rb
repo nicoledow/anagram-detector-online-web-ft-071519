@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class Anagram
   attr_reader :word
@@ -15,7 +15,6 @@ class Anagram
       if possible_match.split("").sort == word.split("").sort 
       #if they match, shovel into an array of matches
         anagrams << possible_match
-        #binding.pry
       end
     end
     #return the array of matches
