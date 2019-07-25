@@ -15,7 +15,8 @@ class Anagram
         anagrams << possible_match
       end
     end
-  end
-   #return the array of matches
+    #return the array of matches
   anagrams
+  end
+
 end
