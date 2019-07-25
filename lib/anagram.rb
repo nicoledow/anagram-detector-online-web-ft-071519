@@ -6,6 +6,7 @@ class Anagram
   end
   
   def match(array)
+    anagrams = []
     #iterate over the array of words
     array.each do |possible_match|
       #compare the letters in each word of the array to @word
